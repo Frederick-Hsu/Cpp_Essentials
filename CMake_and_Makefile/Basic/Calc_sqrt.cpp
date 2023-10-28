@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
     }
 
     // const double input_value = atof(argv[1]);
-    const double input_value = std::stod(argv[1]);
+    const double input_value = std::stod(argv[1]);      // require C++11 standard feature
 
     double output_value = sqrt(input_value);
     std::cout << "The square root of " << input_value << " is " << output_value << std::endl;
